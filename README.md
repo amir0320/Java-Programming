@@ -5,7 +5,7 @@ This repository contains the study materials of Coursera's introductory course t
 # Thoughts about the course
 
 This mooc by Princeton is a great start point for anyone who is interested in :
-  1. learning basic programming concepts. 
+  1. learning basic programming concepts.
      It can be difficult for a beginner, but I would say it's worth it.
   2. getting a grasp of what Java programming is like. 
      Well, in that case, I would assume you are a somewhat seasoned programmer. Then the pdfs and assignments should be sufficient enough.
@@ -31,7 +31,7 @@ Copy and paste:
 
 4. **_Type conversion_**
 
-Calculate the rgb value (which should be int) **after** you process all the white, read, green, blue values (which should be double).
+Calculate the rgb value (which should be int) **after** you process all the white, red, green, blue values (which should be double).
 <br>
 <br>
 <br>
