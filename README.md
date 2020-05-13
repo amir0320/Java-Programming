@@ -87,35 +87,43 @@ The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/ma
 
 ## [Week 4: Input and Output](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php)
 1. **Shannon Entropy**
+
   Call StdOut.printf("%.4f\n", x) to print a floating-point number x with 4 digits of precision after the decimal points. Yeah, I'm shamelessly doing copy and paste again.
 
 2. **Checkerboard**
+
   Keep in mind that the starting point is on the bottom left, and the first square you draw must be blue.
 
 3. **World maps**
+
   Make use of the `StdDraw.enableDoubleBuffering();` and `StdDraw.show();` methods. They can help with the slow drawing process.
 
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/04_input-and-output/homework).
 
 ## [Week 5: Functions and Libraries](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
 1. **Activation functions**
+
   Use Double.isNaN(x) to detect whether x is NaN.
 
   Use ` Double.POSITIVE_INFINITY` and `Double.NEGATIVE_INFINITY` to check if you're dividing infinity by infinity.
 
 2. **Greatest common divisors**
+
   Just do it.
 
 3. **Audio collage**
+
   Reminds me of my first art collage. Both utterly simple and sort of fun.
 
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/05_functions-and-libraries/homework).
 
 ## [Week 6: Recursion](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php)
 1. **Trinomial coefficients (brute force)**
+
   This one should be simple enough to skip.
 
 2. **Trinomial coefficients (dynamic programming)**
+
   Now this one is a bit tricky. The former brute force method is taking super long time to calculate the coefficients once n reaches 30 or something bigger than. The reason is that by using the recursive approach, it's always splitting n into smaller numbers and repeating the same calculations over and over. For example, `trinomial(20, 10)` will call `trinomial(19, 9) + trinomial(19, 10) + trinomial(19, 11)`, and `trinomial(20, 11)` will call `trinomial(19, 10) + trinomial(19,11) + trinomial(19,12)`. As you can see, there are some redundancies we surely want to avoid.
 
   Thus enters the dynamic programming approach. Unlike the brute force method, which is a top-down approach, you start from the bottom. You calculate the base cases first and store them into an array, and any time you need those values, you don't have to calculate them again.
@@ -123,9 +131,11 @@ The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/ma
   There are two ways to define the array. One is to set its length at 2n+1, which can store every coefficients for the expanded trinomial functions. The other is to set the range at n+1. Because the coefficients are symmetry, you can achieve higher memory efficiency by following this approach.
 
 3. **Reve's puzzle**
+
   It's quite a straightforward question if you look closely at the picture on the assignment specification page. Really, just take a look and you should figure it out in no time.
 
 4. **Recursive squares**
+
   Another straightforward question, except that I don't understand why I have to call drawSquare in my main function. Must be an error.
 
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/06_recursion/homework).
