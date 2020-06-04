@@ -139,3 +139,34 @@ The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/ma
   Another straightforward question, except that I don't understand why I have to call drawSquare in my main function. Must be an error.
 
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/06_recursion/homework).
+
+## [Week 7: Performance](https://coursera.cs.princeton.edu/introcs/assignments/performance/specification.php)
+1. **Inversions**
+
+  At first I use this approach for the generate method:
+  ```java
+  while (inversionsToGenerate > 0 && firstIndex <= lastIndex) {
+        if (lastIndex != firstIndex) {
+                swap the last item and the item before it;
+                inversionsToGenerate--;
+                lastIndex--;
+        } else {
+                // narrow down the range and repeat this process until we have all the inversions
+                firstIndex++;
+                lastIndex = n-1;
+        }
+  }
+  ```
+  The good thing about this method is it's easy to comprehend and implement, which is why it pops up as my first take. However, it does have some drawbacks. Although I pass all the correctness tests, I lose several points for the timing tests. Hence the second approach:
+
+  Use a greedy approach. If k≥n−1, put element n−1 first in the permutation, so that it is inverted with n−1 elements; otherwise put it last in the permutation, so that it is inverted with 0 elements. Then subtract 1 from the lastIndex to narrow down the range of the array. With each iteration, n should be decreased by 1, so that we can make sure that we put all numbers from 0 to n-1 in the right position.
+
+2. **Ramanujan numbers**
+
+  It begins with calculating a = n^(1/3), and b = (n−a^3)^(1/3). Of course you need to convert them into integers and check if the sum of the two numbers is n, if so, you get the first set of roots; otherwise, keep looking.
+
+3. **Maximum square submatrix**
+
+  This one reminds me of the Minesweeper problem in assignment 3. But not exactly. I must've seen it somewhere else.
+
+The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/07_performance/homework).
