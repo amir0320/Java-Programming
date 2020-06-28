@@ -6,7 +6,7 @@ This repository contains the study materials of Coursera's introductory course t
 
 This mooc by Princeton is a great start point for anyone who is interested in :
   1. learning basic programming concepts.
-     It can be difficult for a beginner, but I would say it's worth it.
+     It can be challenging for a beginner, but I would say it's worth it.
   2. getting a grasp of what Java programming is like.
      Well, in that case, I would assume you are a somewhat seasoned programmer. Then the pdfs and assignments should be sufficient enough.
   3. procrastinating while learning.
@@ -170,3 +170,14 @@ The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/ma
   This one reminds me of the Minesweeper problem in assignment 3. But not exactly. I must've seen it somewhere else.
 
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/07_performance/homework).
+
+## [Week 8: Abstract Data Types](http://coursera.cs.princeton.edu/introcs/assignments/oop1/specification.php)
+1. **Huntington's disease detector**
+
+   This one should be simple enough to skip.
+
+2. **Kernel filter**
+
+   Use modulo(%) for periodic boundary conditions. You will probably get a warning that "Using a quadruple nested loop suggests poor design in this program." Don't worry, I've asked about it on the forum and the instructor replied, "In general, quadruple nested loops indicate poor design. But, I think kernel filter is an exception, so I'll add it to the Checkstyle exceptions." So we're good.
+
+The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/08_abstract-data-types/homework).
