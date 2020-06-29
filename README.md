@@ -181,3 +181,20 @@ The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/ma
    Use modulo(%) for periodic boundary conditions. You will probably get a warning that "Using a quadruple nested loop suggests poor design in this program." Don't worry, I've asked about it on the forum and the instructor replied, "In general, quadruple nested loops indicate poor design. But, I think kernel filter is an exception, so I'll add it to the Checkstyle exceptions." So we're good.
 
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/08_abstract-data-types/homework).
+
+## [Week 9: Creating Data Types](http://coursera.cs.princeton.edu/introcs/assignments/oop2/specification.php)
+1. **Color data type**
+
+   This one should be simple enough to skip.
+
+2. **Clock data type**
+
+   Two things could be helpful.
+   ```java
+   if (something goes wrong) {
+        throw new IllegalArgumentException("invalid argument");
+   }
+   ```
+   and `String regex = "^\\d{2}:\\d{2}";` to check if the clock's format is correct.
+   
+The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/09_creating-data-types/homework).
