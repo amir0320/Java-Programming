@@ -1,5 +1,5 @@
 * Table of contents
-{:toc}
+[toc]
 
 # Java-Programming
 
