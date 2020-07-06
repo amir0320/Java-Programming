@@ -1,3 +1,6 @@
+* Table of contents
+[toc]
+
 # Java-Programming
 
 This repository contains the study materials of Coursera's introductory course to Java programming and computer science by Princeton. Also, I post my code for the weekly assignments periodically.
