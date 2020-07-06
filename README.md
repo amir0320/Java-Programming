@@ -196,5 +196,11 @@ The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/ma
    }
    ```
    and `String regex = "^\\d{2}:\\d{2}";` to check if the clock's format is correct.
-   
+
 The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/09_creating-data-types/homework).
+
+## [Week 10: Programming Languages](https://coursera.cs.princeton.edu/introcs/assignments/barchart/specification.php)
+
+   If you manage to finish all the assignments before week 10, this one should be trivial. I've spent few months on this course, and I would say it's worth it. I've definitly learned a lot and improved my familiarity with Java. Whoever comes across my repo, I sincerely hope I can be of help, for I know learning is hard, and doing it online is much difficult.
+
+The end. The code is [here](https://github.com/amir0320/Java-Programming/tree/master/10_programming-languages/homework).
